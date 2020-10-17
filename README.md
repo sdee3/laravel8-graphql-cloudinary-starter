@@ -7,6 +7,13 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# Laravel 8 Starter Package featuring GraphQL, Cloudinary API, and ESLint pre-configured
+
+## Who is this for?
+This repository serves as a complete starting point for anyone attempting to use Laravel along with GraphQL in order to support static website libraries, such as [GatsbyJS](https://gatsbyjs.com). In such a use case where this backend would only serve as your API, the entire `resources/js` folder can be ignored, and for such use cases, I haven't modified it too much.
+
+If you're considering using it as the only _source of truth_ for your entire project, then you might also find it useful.
+
 ## Contents
 
 This project consists of the following packages I additionaly set-up:
