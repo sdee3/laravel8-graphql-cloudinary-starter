@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# Laravel 8 Starter Package featuring GraphQL, Cloudinary API, and ESLint pre-configured
+# Laravel 8 Starter Package featuring GraphQL, Cloudinary API, and ESLint pre-installed
 
 ## Who is this for?
 This repository serves as a complete starting point for anyone attempting to use Laravel along with GraphQL in order to support static website libraries, such as [GatsbyJS](https://gatsbyjs.com). In such a use case where this backend would only serve as your API, the entire `resources/js` folder can be ignored, and for such use cases, I haven't modified it too much.
@@ -21,7 +21,7 @@ This project consists of the following packages I additionaly set-up:
 - ESLint ([huge thanks to Wesbos for his template](https://github.com/wesbos/eslint-config-wesbos))
 - [Cloudinary API](https://github.com/cloudinary-labs/cloudinary-laravel)
 
-### Post-Installation Set-up, AKA How to make above mentioned packages working
+### Post-Installation Set-up, AKA How to make above mentioned packages work
 * `php artisan vendor:publish --tag=lighthouse-schema`
 * `npx install-peerdeps --dev eslint-config-wesbos`
 * `php artisan vendor:publish --provider="CloudinaryLabs\CloudinaryLaravel\CloudinaryServiceProvider" --tag="cloudinary-laravel-migration"`
@@ -30,6 +30,8 @@ This project consists of the following packages I additionaly set-up:
 Or follow the guides for each package, I might have pasted unnecessary lines 😊
 
 If you're going to use Cloudinary API, don't forget to set the `CLOUDINARY_URL` key in your `.env` file.
+
+Note that the `graphql/schema.graphql` file is empty. Please create any models you might want to use in your project by yourself and define the necessary Types, Mutations, or Relations.
 
 ## License
 
