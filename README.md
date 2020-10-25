@@ -31,7 +31,7 @@ Or follow the guides for each package, I might have pasted unnecessary lines ðŸ˜
 
 If you're going to use Cloudinary API, don't forget to set the `CLOUDINARY_URL` key in your `.env` file.
 
-Note that the `graphql/schema.graphql` file is empty. Please create any models you might want to use in your project by yourself and define the necessary Types, Mutations, or Relations.
+Note that the `graphql/schema.graphql` file is empty. Please create any models you might want to use in your project by yourself and define the necessary Types, Fields, or Directives.
 
 ## License
 
